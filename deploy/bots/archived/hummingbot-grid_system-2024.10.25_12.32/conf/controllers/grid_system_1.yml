@@ -1,0 +1,45 @@
+id: HewUNderPGfhY5Wn19HnHQxU7Zo3XyRosX5t8KDpQE9c
+controller_name: grid_system
+controller_type: directional_trading
+total_amount_quote: 1000
+manual_kill_switch: null
+candles_config: []
+connector_name: kucoin
+trading_pair: BTC-USDT
+max_executors_per_side: 2
+cooldown_time: 300
+leverage: 1
+position_mode: HEDGE
+stop_loss: 0.03
+take_profit: 0.02
+time_limit: 2700
+take_profit_order_type: 2
+trailing_stop:
+  activation_price: 0.015
+  trailing_delta: 0.003
+connector: kucoin
+grid_type: auto
+smooth_type: ema
+length: 100
+bars_back: 200
+i_extr: true
+grid_params: Chart Range
+grid_section: 5
+subsection: none
+calculation: arithmetic
+projection_mode: basic
+display_levels: 2
+start: 63.0
+stop: 1163.0
+projection_point: 0.8346
+i_len: 7
+i_dir: neutral
+i_cool: 2
+i_reset: true
+mintick: 1
+i_elstx: 50
+i_lz: 4
+i_gi: 2
+interval: 5
+i_grids: 6
+order_amount: 0.01

@@ -1,0 +1,7 @@
+candles_config: []
+config_update_interval: 10
+controllers_config:
+- D9x4gJgab2WN4dLNgAjyJ1M1bqY8SujR91Cu52MiYdqG.yml
+markets: {}
+script_file_name: v2_with_controllers.py
+time_to_cash_out: null

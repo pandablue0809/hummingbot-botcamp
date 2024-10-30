@@ -1,0 +1,27 @@
+bb_length: 100
+bb_long_threshold: 0.0
+bb_short_threshold: 1.0
+bb_std: 2.0
+candles_connector: phemex_perpetual
+candles_trading_pair: WLD-USDT
+connector_name: phemex_perpetual
+controller_name: macd_bb_v1
+controller_type: directional_trading
+cooldown_time: 3600.0
+id: market-nebula_0.1
+interval: 3m
+leverage: 20
+macd_fast: 21
+macd_signal: 9
+macd_slow: 42
+max_executors_per_side: 5
+position_mode: HEDGE
+stop_loss: 0.05
+take_profit: 0.02
+take_profit_order_type: 2
+time_limit: 43200
+total_amount_quote: 1000
+trading_pair: WLD-USDT
+trailing_stop:
+  activation_price: 0.018
+  trailing_delta: 0.002

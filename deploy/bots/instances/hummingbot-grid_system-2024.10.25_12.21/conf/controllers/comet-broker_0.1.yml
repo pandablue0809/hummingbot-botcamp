@@ -1,0 +1,23 @@
+candles_connector: kucoin
+candles_trading_pair: WLD-USDT
+connector_name: kucoin
+controller_name: supertrend_v1
+controller_type: directional_trading
+cooldown_time: 3600.0
+id: comet-broker_0.1
+interval: 3m
+length: 20
+leverage: 20
+max_executors_per_side: 5
+multiplier: 3.0
+percentage_threshold: 5.0e-05
+position_mode: HEDGE
+stop_loss: 0.05
+take_profit: 0.02
+take_profit_order_type: 2
+time_limit: 43200
+total_amount_quote: 1000
+trading_pair: WLD-USDT
+trailing_stop:
+  activation_price: 0.018
+  trailing_delta: 0.002
